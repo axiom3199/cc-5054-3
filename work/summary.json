@@ -1,0 +1,620 @@
+{
+  "work_root": "/workspace/work",
+  "width": 640,
+  "height": 480,
+  "n_frames": 24,
+  "eval_frame": 0,
+  "roi_box": [
+    16,
+    5,
+    250,
+    21
+  ],
+  "cap": {
+    "bit_budget_bytes": 45601,
+    "roi_psnr_min": 38.0,
+    "stroke_gap_max": 0.08
+  },
+  "histogram_match_between_variants": true,
+  "decisions": {
+    "text": {
+      "chosen_tag": "text_yuv420p_scc",
+      "selection": "no_feasible_candidate",
+      "candidates": [
+        {
+          "tag": "text_yuv420p_generic",
+          "pix_fmt": "yuv420p",
+          "config": "generic",
+          "bitstream_bytes": 45601,
+          "psnr_full": 34.572014639729446,
+          "psnr_roi": 29.44790704590705,
+          "stroke_gap_ratio": 0.07407407407407407,
+          "feasible": false,
+          "reject_reasons": [
+            "roi_psnr_below_cap"
+          ]
+        },
+        {
+          "tag": "text_yuv420p_scc",
+          "pix_fmt": "yuv420p",
+          "config": "scc",
+          "bitstream_bytes": 36236,
+          "psnr_full": 34.55035117271457,
+          "psnr_roi": 29.45368670234734,
+          "stroke_gap_ratio": 0.07797270955165692,
+          "feasible": false,
+          "reject_reasons": [
+            "roi_psnr_below_cap"
+          ]
+        },
+        {
+          "tag": "text_yuv444p_generic",
+          "pix_fmt": "yuv444p",
+          "config": "generic",
+          "bitstream_bytes": 68740,
+          "psnr_full": 47.17573891679673,
+          "psnr_roi": 44.587208375782396,
+          "stroke_gap_ratio": 0.0,
+          "feasible": false,
+          "reject_reasons": [
+            "over_budget"
+          ]
+        },
+        {
+          "tag": "text_yuv444p_scc",
+          "pix_fmt": "yuv444p",
+          "config": "scc",
+          "bitstream_bytes": 57425,
+          "psnr_full": 47.35930581932578,
+          "psnr_roi": 43.984819357018196,
+          "stroke_gap_ratio": 0.0,
+          "feasible": false,
+          "reject_reasons": [
+            "over_budget"
+          ]
+        }
+      ]
+    },
+    "video": {
+      "chosen_tag": "video_yuv444p_scc",
+      "selection": "no_feasible_candidate",
+      "candidates": [
+        {
+          "tag": "video_yuv420p_generic",
+          "pix_fmt": "yuv420p",
+          "config": "generic",
+          "bitstream_bytes": 62117,
+          "psnr_full": 33.46606862792066,
+          "psnr_roi": 29.43923889249728,
+          "stroke_gap_ratio": 0.07212475633528265,
+          "feasible": false,
+          "reject_reasons": [
+            "over_budget",
+            "roi_psnr_below_cap"
+          ]
+        },
+        {
+          "tag": "video_yuv420p_scc",
+          "pix_fmt": "yuv420p",
+          "config": "scc",
+          "bitstream_bytes": 49221,
+          "psnr_full": 33.476926840811615,
+          "psnr_roi": 29.458151155699603,
+          "stroke_gap_ratio": 0.07602339181286549,
+          "feasible": false,
+          "reject_reasons": [
+            "over_budget",
+            "roi_psnr_below_cap"
+          ]
+        },
+        {
+          "tag": "video_yuv444p_generic",
+          "pix_fmt": "yuv444p",
+          "config": "generic",
+          "bitstream_bytes": 96580,
+          "psnr_full": 46.70740058558057,
+          "psnr_roi": 44.442758116626315,
+          "stroke_gap_ratio": 0.0,
+          "feasible": false,
+          "reject_reasons": [
+            "over_budget"
+          ]
+        },
+        {
+          "tag": "video_yuv444p_scc",
+          "pix_fmt": "yuv444p",
+          "config": "scc",
+          "bitstream_bytes": 83037,
+          "psnr_full": 47.68935804973481,
+          "psnr_roi": 43.47332720892123,
+          "stroke_gap_ratio": 0.0,
+          "feasible": false,
+          "reject_reasons": [
+            "over_budget"
+          ]
+        }
+      ]
+    }
+  },
+  "sampling_attribution": [
+    {
+      "variant": "text",
+      "config": "generic",
+      "pix_fmt_pair": [
+        "yuv420p",
+        "yuv444p"
+      ],
+      "psnr_full_420": 34.572014639729446,
+      "psnr_full_444": 47.17573891679673,
+      "psnr_roi_420": 29.44790704590705,
+      "psnr_roi_444": 44.587208375782396,
+      "stroke_gap_420": 0.07407407407407407,
+      "stroke_gap_444": 0.0,
+      "delta_roi_db": 15.139301329875344,
+      "delta_full_db": 12.603724277067286,
+      "attribution": "chroma_subsampling"
+    },
+    {
+      "variant": "text",
+      "config": "scc",
+      "pix_fmt_pair": [
+        "yuv420p",
+        "yuv444p"
+      ],
+      "psnr_full_420": 34.55035117271457,
+      "psnr_full_444": 47.35930581932578,
+      "psnr_roi_420": 29.45368670234734,
+      "psnr_roi_444": 43.984819357018196,
+      "stroke_gap_420": 0.07797270955165692,
+      "stroke_gap_444": 0.0,
+      "delta_roi_db": 14.531132654670856,
+      "delta_full_db": 12.808954646611213,
+      "attribution": "chroma_subsampling"
+    },
+    {
+      "variant": "video",
+      "config": "generic",
+      "pix_fmt_pair": [
+        "yuv420p",
+        "yuv444p"
+      ],
+      "psnr_full_420": 33.46606862792066,
+      "psnr_full_444": 46.70740058558057,
+      "psnr_roi_420": 29.43923889249728,
+      "psnr_roi_444": 44.442758116626315,
+      "stroke_gap_420": 0.07212475633528265,
+      "stroke_gap_444": 0.0,
+      "delta_roi_db": 15.003519224129036,
+      "delta_full_db": 13.24133195765991,
+      "attribution": "chroma_subsampling"
+    },
+    {
+      "variant": "video",
+      "config": "scc",
+      "pix_fmt_pair": [
+        "yuv420p",
+        "yuv444p"
+      ],
+      "psnr_full_420": 33.476926840811615,
+      "psnr_full_444": 47.68935804973481,
+      "psnr_roi_420": 29.458151155699603,
+      "psnr_roi_444": 43.47332720892123,
+      "stroke_gap_420": 0.07602339181286549,
+      "stroke_gap_444": 0.0,
+      "delta_roi_db": 14.01517605322163,
+      "delta_full_db": 14.212431208923192,
+      "attribution": "mixed"
+    }
+  ],
+  "candidates": [
+    {
+      "tag": "text_yuv420p_generic",
+      "variant": "text",
+      "pix_fmt": "yuv420p",
+      "config": "generic",
+      "bitstream_bytes": 45601,
+      "bits_per_pixel": 0.04948025173611111,
+      "frame_status": {
+        "frame": 0,
+        "bytes": 27941,
+        "cumulative_bytes": 0,
+        "psnr_all": 54.796,
+        "psnr_y": 55.759,
+        "psnr_u": 53.623,
+        "psnr_v": 53.076
+      },
+      "roi_mode_area_px": {
+        "INTRA": 5824
+      },
+      "result_path": "runs/text_yuv420p_generic/result.json",
+      "feasible": false,
+      "visuals": {
+        "block_overlay": "runs/text_yuv420p_generic/vis/blocks_f000.png",
+        "roi_zoom": "runs/text_yuv420p_generic/vis/roi_zoom_f000.png",
+        "damage_map": "runs/text_yuv420p_generic/vis/damage_f000.png",
+        "glyph_panel": "runs/text_yuv420p_generic/vis/glyphs_f000.png",
+        "block_overlay_roi": "runs/text_yuv420p_generic/vis/blocks_roi_f000.png"
+      },
+      "metrics": {
+        "psnr_full": 34.572014639729446,
+        "psnr_roi": 29.44790704590705,
+        "stroke_gap_ratio": 0.07407407407407407,
+        "failed_glyphs": [
+          {
+            "char": "F",
+            "box": [
+              16,
+              5,
+              23,
+              21
+            ],
+            "gap_ratio": 0.32
+          },
+          {
+            "char": "d",
+            "box": [
+              65,
+              5,
+              72,
+              21
+            ],
+            "gap_ratio": 0.32
+          },
+          {
+            "char": "i",
+            "box": [
+              72,
+              5,
+              79,
+              21
+            ],
+            "gap_ratio": 0.26666666666666666
+          }
+        ]
+      }
+    },
+    {
+      "tag": "text_yuv420p_scc",
+      "variant": "text",
+      "pix_fmt": "yuv420p",
+      "config": "scc",
+      "bitstream_bytes": 36236,
+      "bits_per_pixel": 0.03931857638888889,
+      "frame_status": {
+        "frame": 0,
+        "bytes": 18474,
+        "cumulative_bytes": 0,
+        "psnr_all": 54.671,
+        "psnr_y": 55.908,
+        "psnr_u": 53.2,
+        "psnr_v": 52.662
+      },
+      "roi_mode_area_px": {
+        "INTRA": 2176,
+        "PALETTE": 3520
+      },
+      "result_path": "runs/text_yuv420p_scc/result.json",
+      "feasible": false,
+      "visuals": {
+        "block_overlay": "runs/text_yuv420p_scc/vis/blocks_f000.png",
+        "roi_zoom": "runs/text_yuv420p_scc/vis/roi_zoom_f000.png",
+        "damage_map": "runs/text_yuv420p_scc/vis/damage_f000.png",
+        "glyph_panel": "runs/text_yuv420p_scc/vis/glyphs_f000.png",
+        "block_overlay_roi": "runs/text_yuv420p_scc/vis/blocks_roi_f000.png"
+      },
+      "metrics": {
+        "psnr_full": 34.55035117271457,
+        "psnr_roi": 29.45368670234734,
+        "stroke_gap_ratio": 0.07797270955165692,
+        "failed_glyphs": [
+          {
+            "char": "F",
+            "box": [
+              16,
+              5,
+              23,
+              21
+            ],
+            "gap_ratio": 0.32
+          },
+          {
+            "char": "d",
+            "box": [
+              65,
+              5,
+              72,
+              21
+            ],
+            "gap_ratio": 0.32
+          },
+          {
+            "char": "i",
+            "box": [
+              72,
+              5,
+              79,
+              21
+            ],
+            "gap_ratio": 0.26666666666666666
+          }
+        ]
+      }
+    },
+    {
+      "tag": "text_yuv444p_generic",
+      "variant": "text",
+      "pix_fmt": "yuv444p",
+      "config": "generic",
+      "bitstream_bytes": 68740,
+      "bits_per_pixel": 0.07458767361111111,
+      "frame_status": {
+        "frame": 0,
+        "bytes": 34063,
+        "cumulative_bytes": 0,
+        "psnr_all": 55.144,
+        "psnr_y": 55.449,
+        "psnr_u": 54.859,
+        "psnr_v": 55.143
+      },
+      "roi_mode_area_px": {
+        "INTRA": 5696
+      },
+      "result_path": "runs/text_yuv444p_generic/result.json",
+      "feasible": false,
+      "visuals": {
+        "block_overlay": "runs/text_yuv444p_generic/vis/blocks_f000.png",
+        "roi_zoom": "runs/text_yuv444p_generic/vis/roi_zoom_f000.png",
+        "damage_map": "runs/text_yuv444p_generic/vis/damage_f000.png",
+        "glyph_panel": "runs/text_yuv444p_generic/vis/glyphs_f000.png",
+        "block_overlay_roi": "runs/text_yuv444p_generic/vis/blocks_roi_f000.png"
+      },
+      "metrics": {
+        "psnr_full": 47.17573891679673,
+        "psnr_roi": 44.587208375782396,
+        "stroke_gap_ratio": 0.0,
+        "failed_glyphs": []
+      }
+    },
+    {
+      "tag": "text_yuv444p_scc",
+      "variant": "text",
+      "pix_fmt": "yuv444p",
+      "config": "scc",
+      "bitstream_bytes": 57425,
+      "bits_per_pixel": 0.062310112847222224,
+      "frame_status": {
+        "frame": 0,
+        "bytes": 22483,
+        "cumulative_bytes": 0,
+        "psnr_all": 55.648,
+        "psnr_y": 55.675,
+        "psnr_u": 55.589,
+        "psnr_v": 55.681
+      },
+      "roi_mode_area_px": {
+        "INTRA": 3200,
+        "PALETTE": 2496
+      },
+      "result_path": "runs/text_yuv444p_scc/result.json",
+      "feasible": false,
+      "visuals": {
+        "block_overlay": "runs/text_yuv444p_scc/vis/blocks_f000.png",
+        "roi_zoom": "runs/text_yuv444p_scc/vis/roi_zoom_f000.png",
+        "damage_map": "runs/text_yuv444p_scc/vis/damage_f000.png",
+        "glyph_panel": "runs/text_yuv444p_scc/vis/glyphs_f000.png",
+        "block_overlay_roi": "runs/text_yuv444p_scc/vis/blocks_roi_f000.png"
+      },
+      "metrics": {
+        "psnr_full": 47.35930581932578,
+        "psnr_roi": 43.984819357018196,
+        "stroke_gap_ratio": 0.0,
+        "failed_glyphs": []
+      }
+    },
+    {
+      "tag": "video_yuv420p_generic",
+      "variant": "video",
+      "pix_fmt": "yuv420p",
+      "config": "generic",
+      "bitstream_bytes": 62117,
+      "bits_per_pixel": 0.06740125868055556,
+      "frame_status": {
+        "frame": 0,
+        "bytes": 30928,
+        "cumulative_bytes": 0,
+        "psnr_all": 54.466,
+        "psnr_y": 55.582,
+        "psnr_u": 53.136,
+        "psnr_v": 52.568
+      },
+      "roi_mode_area_px": {
+        "INTRA": 5696
+      },
+      "result_path": "runs/video_yuv420p_generic/result.json",
+      "feasible": false,
+      "visuals": {
+        "block_overlay": "runs/video_yuv420p_generic/vis/blocks_f000.png",
+        "roi_zoom": "runs/video_yuv420p_generic/vis/roi_zoom_f000.png",
+        "damage_map": "runs/video_yuv420p_generic/vis/damage_f000.png",
+        "glyph_panel": "runs/video_yuv420p_generic/vis/glyphs_f000.png",
+        "block_overlay_roi": "runs/video_yuv420p_generic/vis/blocks_roi_f000.png"
+      },
+      "metrics": {
+        "psnr_full": 33.46606862792066,
+        "psnr_roi": 29.43923889249728,
+        "stroke_gap_ratio": 0.07212475633528265,
+        "failed_glyphs": [
+          {
+            "char": "F",
+            "box": [
+              16,
+              5,
+              23,
+              21
+            ],
+            "gap_ratio": 0.32
+          },
+          {
+            "char": "d",
+            "box": [
+              65,
+              5,
+              72,
+              21
+            ],
+            "gap_ratio": 0.32
+          },
+          {
+            "char": "i",
+            "box": [
+              72,
+              5,
+              79,
+              21
+            ],
+            "gap_ratio": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "tag": "video_yuv420p_scc",
+      "variant": "video",
+      "pix_fmt": "yuv420p",
+      "config": "scc",
+      "bitstream_bytes": 49221,
+      "bits_per_pixel": 0.053408203125,
+      "frame_status": {
+        "frame": 0,
+        "bytes": 17726,
+        "cumulative_bytes": 0,
+        "psnr_all": 54.694,
+        "psnr_y": 56.384,
+        "psnr_u": 53.085,
+        "psnr_v": 52.043
+      },
+      "roi_mode_area_px": {
+        "INTRA": 3136,
+        "PALETTE": 2752
+      },
+      "result_path": "runs/video_yuv420p_scc/result.json",
+      "feasible": false,
+      "visuals": {
+        "block_overlay": "runs/video_yuv420p_scc/vis/blocks_f000.png",
+        "roi_zoom": "runs/video_yuv420p_scc/vis/roi_zoom_f000.png",
+        "damage_map": "runs/video_yuv420p_scc/vis/damage_f000.png",
+        "glyph_panel": "runs/video_yuv420p_scc/vis/glyphs_f000.png",
+        "block_overlay_roi": "runs/video_yuv420p_scc/vis/blocks_roi_f000.png"
+      },
+      "metrics": {
+        "psnr_full": 33.476926840811615,
+        "psnr_roi": 29.458151155699603,
+        "stroke_gap_ratio": 0.07602339181286549,
+        "failed_glyphs": [
+          {
+            "char": "F",
+            "box": [
+              16,
+              5,
+              23,
+              21
+            ],
+            "gap_ratio": 0.32
+          },
+          {
+            "char": "d",
+            "box": [
+              65,
+              5,
+              72,
+              21
+            ],
+            "gap_ratio": 0.32
+          },
+          {
+            "char": "i",
+            "box": [
+              72,
+              5,
+              79,
+              21
+            ],
+            "gap_ratio": 0.26666666666666666
+          }
+        ]
+      }
+    },
+    {
+      "tag": "video_yuv444p_generic",
+      "variant": "video",
+      "pix_fmt": "yuv444p",
+      "config": "generic",
+      "bitstream_bytes": 96580,
+      "bits_per_pixel": 0.10479600694444445,
+      "frame_status": {
+        "frame": 0,
+        "bytes": 39685,
+        "cumulative_bytes": 0,
+        "psnr_all": 54.461,
+        "psnr_y": 55.47,
+        "psnr_u": 53.631,
+        "psnr_v": 54.474
+      },
+      "roi_mode_area_px": {
+        "INTRA": 5760
+      },
+      "result_path": "runs/video_yuv444p_generic/result.json",
+      "feasible": false,
+      "visuals": {
+        "block_overlay": "runs/video_yuv444p_generic/vis/blocks_f000.png",
+        "roi_zoom": "runs/video_yuv444p_generic/vis/roi_zoom_f000.png",
+        "damage_map": "runs/video_yuv444p_generic/vis/damage_f000.png",
+        "glyph_panel": "runs/video_yuv444p_generic/vis/glyphs_f000.png",
+        "block_overlay_roi": "runs/video_yuv444p_generic/vis/blocks_roi_f000.png"
+      },
+      "metrics": {
+        "psnr_full": 46.70740058558057,
+        "psnr_roi": 44.442758116626315,
+        "stroke_gap_ratio": 0.0,
+        "failed_glyphs": []
+      }
+    },
+    {
+      "tag": "video_yuv444p_scc",
+      "variant": "video",
+      "pix_fmt": "yuv444p",
+      "config": "scc",
+      "bitstream_bytes": 83037,
+      "bits_per_pixel": 0.09010091145833334,
+      "frame_status": {
+        "frame": 0,
+        "bytes": 20754,
+        "cumulative_bytes": 0,
+        "psnr_all": 56.269,
+        "psnr_y": 56.782,
+        "psnr_u": 56.423,
+        "psnr_v": 55.675
+      },
+      "roi_mode_area_px": {
+        "INTRA": 3328,
+        "PALETTE": 2496
+      },
+      "result_path": "runs/video_yuv444p_scc/result.json",
+      "feasible": false,
+      "visuals": {
+        "block_overlay": "runs/video_yuv444p_scc/vis/blocks_f000.png",
+        "roi_zoom": "runs/video_yuv444p_scc/vis/roi_zoom_f000.png",
+        "damage_map": "runs/video_yuv444p_scc/vis/damage_f000.png",
+        "glyph_panel": "runs/video_yuv444p_scc/vis/glyphs_f000.png",
+        "block_overlay_roi": "runs/video_yuv444p_scc/vis/blocks_roi_f000.png"
+      },
+      "metrics": {
+        "psnr_full": 47.68935804973481,
+        "psnr_roi": 43.47332720892123,
+        "stroke_gap_ratio": 0.0,
+        "failed_glyphs": []
+      }
+    }
+  ],
+  "report_path": "/workspace/work/report.html"
+}

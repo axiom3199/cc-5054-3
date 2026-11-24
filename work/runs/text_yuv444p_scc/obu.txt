@@ -1,0 +1,220 @@
+Temporal unit 0
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_SEQUENCE_HEADER
+      extension:   no
+      length:      13
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      22468
+  TU size: 22483
+  OBU overhead:    3
+Temporal unit 1
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      6571
+  TU size: 6573
+  OBU overhead:    2
+Temporal unit 2
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      4958
+  TU size: 4960
+  OBU overhead:    2
+Temporal unit 3
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      3760
+  TU size: 3762
+  OBU overhead:    2
+Temporal unit 4
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      3482
+  TU size: 3484
+  OBU overhead:    2
+Temporal unit 5
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      3622
+  TU size: 3624
+  OBU overhead:    2
+Temporal unit 6
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      715
+  TU size: 717
+  OBU overhead:    2
+Temporal unit 7
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      370
+  TU size: 372
+  OBU overhead:    2
+Temporal unit 8
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      523
+  TU size: 525
+  OBU overhead:    2
+Temporal unit 9
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      391
+  TU size: 393
+  OBU overhead:    2
+Temporal unit 10
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      509
+  TU size: 511
+  OBU overhead:    2
+Temporal unit 11
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      562
+  TU size: 564
+  OBU overhead:    2
+Temporal unit 12
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      490
+  TU size: 492
+  OBU overhead:    2
+Temporal unit 13
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      391
+  TU size: 393
+  OBU overhead:    2
+Temporal unit 14
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      372
+  TU size: 374
+  OBU overhead:    2
+Temporal unit 15
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      345
+  TU size: 347
+  OBU overhead:    2
+Temporal unit 16
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      745
+  TU size: 747
+  OBU overhead:    2
+Temporal unit 17
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      817
+  TU size: 819
+  OBU overhead:    2
+Temporal unit 18
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      466
+  TU size: 468
+  OBU overhead:    2
+Temporal unit 19
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      443
+  TU size: 445
+  OBU overhead:    2
+Temporal unit 20
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      410
+  TU size: 412
+  OBU overhead:    2
+Temporal unit 21
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      467
+  TU size: 469
+  OBU overhead:    2
+Temporal unit 22
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      386
+  TU size: 388
+  OBU overhead:    2
+Temporal unit 23
+  OBU type:        OBU_TEMPORAL_DELIMITER
+      extension:   no
+      length:      2
+  OBU type:        OBU_FRAME
+      extension:   no
+      length:      3781
+  TU size: 3783
+  OBU overhead:    2
+File total OBU overhead: 49
